@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import Slide from './slide'
+import AutoPlay from './slickOne'
 import './App.css';
+
 
 class App extends Component {
   render() {
@@ -9,6 +11,9 @@ class App extends Component {
         <p>Slider 1, na klikanie, bez pętli</p>
         <Slide />
         <p>Slider 2, ze slick slider</p>
+        <div style={{marginBottom: '100px'}}>
+        <AutoPlay />
+        </div>
       </div>
     );
   }
